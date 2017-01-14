@@ -13,4 +13,4 @@ If any other combinations are entered the "user" page is loaded.
 main.html (first page).
 
 The "rootURL" needs to be defined so it point to the API.
-rootURL is found in settings.js.
+The variable is defined in settings.js.
