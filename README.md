@@ -19,4 +19,4 @@ The database is not thread safe.
 # Installation
 main.html (first page)
 
-In JavaMain.js the "rootURL" needs to be defined so it point to the API.
+In settings.js the "rootURL" needs to be defined so it point to the API.
