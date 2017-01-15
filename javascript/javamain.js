@@ -15,10 +15,10 @@ function ClickEventLogin() {
 	      {
 	    	
 			  if(data=="true"){
-				  window.location.href='html/admin.html';
+				  $("#inner").load("html/admin.html");				 
 				  page="admin";
 			  }else{
-				  window.location.href='html/user.html';
+				  $("#inner").load("html/user.html");
 				  page="user";
 			  } 
 	      },
