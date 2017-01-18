@@ -1,0 +1,365 @@
+body{
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+	font-weight: light
+}
+
+
+
+#outer{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	width:100%; 
+	height:100%; } 
+
+#inner{ 
+	width:1150px;
+    height:1200px;
+    background: #B2DFDB;
+    position:relative; 
+    left: 50%;
+    transform: translate(-50%, 0%);}
+    
+#innerinner_header{ 
+	width:1100px;
+    height:50px;
+    background:#00796B ;
+    position:relative;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 50px; 
+    top:10px;
+    left:25px;
+    border-radius: 10px;
+    border-right: 2px solid #008E7D;
+ 	border-bottom: 2px solid #008E7D;
+ 	border-left: 2px solid #00695C;
+ 	border-top: 2px solid #00695C;}
+    
+#innerinner_header h1{
+    color: #FFFFFF;
+    font-size:30px;
+    margin:auto;
+    line-height:50px;
+    vertical-align:middle;
+}    
+    
+#innerinner{ 
+	width:1100px;
+    height:450px;
+    background:#00796B ;
+    position:relative;
+    text-align:center; 
+    top:25px;
+    left:25px;
+    border-radius: 10px;
+    border-right: 2px solid #008E7D;
+ 	border-bottom: 2px solid #008E7D;
+ 	border-left: 2px solid #00695C;
+ 	border-top: 2px solid #00695C;}
+ 	
+#innerinner_text_path{ 
+	width:520px;
+    background:#00796B ;
+    position:relative;
+    float:left;
+    top:35px;
+    left:25px;
+    border-radius: 10px;
+    border-right: 2px solid #008E7D;
+ 	border-bottom: 2px solid #008E7D;
+ 	border-left: 2px solid #00695C;
+ 	border-top: 2px solid #00695C;
+   	height: 260px;
+   	padding: 10px;
+   	font-size: 12px;
+   	color: #FFFFFF;}
+   	
+#innerinner_text_points{
+	display:inline-block;
+	float:right;
+	width:520px;
+    background:#00796B ;
+    position:relative;
+    text-align:left; 
+    float:right; 
+    top:35px;
+    right:20px;
+    border-radius: 10px;
+    border-right: 2px solid #008E7D;
+ 	border-bottom: 2px solid #008E7D;
+ 	border-left: 2px solid #00695C;
+ 	border-top: 2px solid #00695C;
+ 	display:inline-block;
+   	height: 200px;
+   	padding: 10px;
+   	font-size: 12px;
+   	color: #FFFFFF;}
+   	
+#innerinner_text_buttons{ 
+	width:520px;
+    background:#B2DFDB ;
+    position:relative;
+    float:right; 
+    top:35px;
+    right:20px;
+ 	display:inline-block;
+   	height: 100px;
+   	padding: 10px;
+   	font-size: 12px;
+   	color: #FFFFFF;}
+    
+#inner-login{ 
+	width:190px;
+    height:240px;
+    background: #009688;
+    position:fixed;
+    left: 50%;
+    top: 200px;
+    transform: translate(-50%, 0%);
+    text-align: center;}
+
+.input_login {
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	border: 0px solid;
+	height: 30px;
+	width: 160px;
+	text-align: center;
+}
+
+.login_button {
+	border-radius: 20px;
+	background-color: #FF4081;
+	color: #FFFFFF;
+	border: 0px solid;
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	bottom:   20px;
+	left: 45px;
+}
+
+.val_button {
+	border-radius: 15px;
+	background-color: #FF4081;
+	color: #FFFFFF;
+	border: 0px solid;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+}
+	
+.bypass {
+	border-radius: 15px;
+	background-color: #FF4081;
+	color: #FFFFFF;
+	border: 0px solid;
+	height: 110px;
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	
+}
+
+#map{
+	width: 530px; 
+	height: 430px;
+	margin:10px;
+	float:left;
+}
+
+#routelist{
+	width: 530px; 
+	height: 430px;
+	float:right;
+	margin-top:10px;
+	margin-right: 10px;
+}
+
+.highlight{
+	background-color: #009688 ;
+}
+
+
+table#tabletrips {
+    border-collapse: collapse;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-weight: light;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:100%; 
+	
+}
+#tabletrips tr {
+      
+}
+#tabletrips tr:hover {
+    background-color: #FF4081 ;  
+    cursor: pointer;
+}
+#tabletrips td {
+	display: table-cell;
+    width: 33%;  
+}
+
+table#tabletripsheader {
+    border-collapse: collapse;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-weight: light;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:100%; 
+	background-color: #00796B ;  
+}
+
+#tabletripsheader td {
+    border-bottom: 1px solid #FFFFFF;
+	display: table-cell;
+    width: 33%;  
+}
+
+.change {
+	border-radius: 20px;
+	background-color: #FF4081;
+	color: #FFFFFF;
+	border: 0px solid;
+	height: 30px;
+	width: 80px;	
+	float:right;
+	right: 10px;
+	margin:5px;
+	top: 25px;
+}
+#update:hover{
+	cursor: pointer;
+}
+#delete:hover{
+	cursor: pointer;
+}
+#save:hover{
+	cursor: pointer;
+}
+
+
+.divstrukture{
+	left: 5px;
+	height: 30px;
+	width: 500px;
+}
+
+.divstrukture2{
+	left: 5px;
+	height: 30px;
+	width: 500px;
+}
+
+.label_text{
+    color: #FFFFFF;
+    width:250px;
+    height:20px;
+    display:inline-block
+}
+
+.label_text_main{
+    color: #FFFFFF;
+    width:250px;
+    height:20px;
+}
+
+.input_route {
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	border: 0px solid;
+    width:200px;
+    height:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display:inline-block
+}
+
+.input_route2 {
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	border: 0px solid;
+    width:450px;
+    height:100px;
+    display:inline-block; 
+    resize: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#routelist2{
+	width: 250px; 
+	height: 200px;
+	margin-top:0px;
+	margin-right: 0px;
+}
+
+table#tablepoints {
+    border-collapse: collapse;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-weight: light;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:100%; 
+	 
+}
+#tablepoints tr {
+     
+}
+#tablepoints tr:hover {
+    background-color: #FF4081 ;  
+    cursor: pointer;
+}
+#tablepoints td {
+	display: table-cell;
+    width: 100%;  
+}
+
+table#tablepointssheader {
+    border-collapse: collapse;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-weight: light;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:100%; 
+	background-color: #00796B ;  
+}
+
+#tablepointssheader td {
+    border-bottom: 1px solid #FFFFFF;
+	display: table-cell;
+    width: 100%;  
+}
+
+#pointRight{
+	width: 250px; 
+	height: 430px;
+	float:right;
+	margin-top:25px;
+	margin-right: 10px;
+}
+
+#pointLeft{
+	width: 250px; 
+	height: 430px;
+	float:left;
+	margin-top:0px;
+	margin-left: 0px;
+}
+
+.popup_msg{
+position:absolute;
+z-index:0;
+width:200px;
+height:200px;
+color:#FF0000;
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+background:url(bg_image.gif) bottom right no-repeat;
+display:none;
+}
